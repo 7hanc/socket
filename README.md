@@ -9,11 +9,28 @@
 當client端輸入"bye"時，結束
 
 # Flow
+In server:
+* Step1: socket(): create socket
+* Step2: bind():   bind socket
+* Step3: listen(): maximum number of client which can be accepted
+* Step4: accept(): wait for client's request
+* Step5: send(), recv(): communicate with client
+* Step6: close():  close connection
+
+In client:
+* Step1: socket(): create socket
+* Step2: connect(): TCP connect 
+* Step3: send(), recv(): communicate with server
+* Step4: close(): close connection
+
 <img src="https://i.imgur.com/z49ZnBu.png" width=30% height=30%>
 
 # Output
 Client: 
 <img src="https://i.imgur.com/s7xxObH.png" width=30% height=30%>  Server: <img src="https://i.imgur.com/CskZEaX.png" width=30% height=30%>
+
+# Notice
+1. 
 
 # Reference
 https://realpython.com/python-sockets/   
