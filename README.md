@@ -31,6 +31,7 @@ Client:
 
 # Notice
 1. socket間以byte形式傳送數據
+2. server與client的port要一樣
 
 # Reference
 https://realpython.com/python-sockets/   
