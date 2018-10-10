@@ -30,7 +30,7 @@ Client:
 <img src="https://i.imgur.com/s7xxObH.png" width=30% height=30%>  Server: <img src="https://i.imgur.com/CskZEaX.png" width=30% height=30%>
 
 # Notice
-1. 
+1. socket間以byte形式傳送數據
 
 # Reference
 https://realpython.com/python-sockets/   
