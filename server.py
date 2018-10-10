@@ -14,7 +14,7 @@ def server():
     print("Connection from: " + str(address))
     while True:
        
-        data = conn.recv(1024).decode()
+        data = conn.recv(1024).decode()  #read at most 1024 bytes
         if not data:
             break
             
