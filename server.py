@@ -22,7 +22,7 @@ def server():
         data_length = len(data)
         
         server_time = ctime()   #get server's time
-        conn.sendall(server_time.encode())
+        conn.sendall(server_time.encode())  #encode():convert to bytes
         conn.sendall(str(data_length).encode())
 
     conn.close()  
